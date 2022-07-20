@@ -1,73 +1,48 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# To-Do-list
+A simple webapp( list of To Do tasks).  This simple web page was built using webpack and served by a webpack dev server.
 
-# Project Name
-
-> Description the project.
-
+In this project I implemented the following functionalities::
+-Adding a new item.
+-Removing a selected item.
+-Marking a selected item as complete.
+-Removing all items marked as complete at once.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS
+-Es6 Modules
 
-## Live Demo (if available)
+## Live Demo (available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://natasha-ct.github.io/To-Do-list-webapp/dist/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+#Project screenshot
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/106079814/179227330-7aacb238-02f1-4626-940a-e4ddc7e34b1e.png">
 
 
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+-Github flow knowledge.
+-Basic CSS and HTML.
+-Installation of files.
+-ES6
 
 ### Setup
+-To clone the repository run `[https://github.com/NATASHA-ct/To-Do-list-webapp.git]` in your terminal
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+-Set up Github Actions
+-Set up linter > Lighthouse , Webhint ,Stylelint ,
+-Added Eslint
+-Add webpack
 
 
 ## Authors
 
-👤 **Author1**
+👤 **NATASHA TATENDA CHIROMBE**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@NATASHA-ct]((https://github.com/NATASHA-ct)
+- Twitter: [@NatashaChirombe]
+- LinkedIn: [Natasha Chirombe](linkedin.com/in/natasha-chirombe-1531aa17b)
 
 ## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
