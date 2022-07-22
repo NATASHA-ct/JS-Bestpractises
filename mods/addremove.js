@@ -5,7 +5,7 @@ export const setToDos = (newTodos) => {
   todos = newTodos;
 };
 
-//adding a new todo list item
+// adding a new todo list item
 export const addToDo = (todo) => {
   const txtInput = {
     description: todo.description,
@@ -23,15 +23,14 @@ export const removeTodos = (predicate, todos) => todos.filter(predicate).map((to
   return todo;
 });
 
-//Adding DOM objects dynamically
+// Adding DOM objects dynamically
 export const createToDo = ({ description, completed, index }) => {
   const li = document.createElement('li');
 
   const checkBox = document.createElement('input');
   checkBox.setAttribute('type', 'checkbox');
   checkBox.classList.add('checkbox');
-  
- 
+
   const item = document.createElement('span');
   item.classList.add('content');
   item.appendChild(document.createTextNode(description));
@@ -54,15 +53,15 @@ export const createToDo = ({ description, completed, index }) => {
     }
     localStorage.setItem('todos', JSON.stringify(todos));
   });
-  
-  //Adding a new item to the local storage
+
+  // Adding a new item to the local storage
   item.addEventListener('input', (e) => {
     const todo = todos.find((todo) => todo.index === index);
     todo.description = e.target.outerText;
     localStorage.setItem('todos', JSON.stringify(todos));
   });
-  
- //Function to remove a todo list item
+
+  // Function to remove a todo list item
   remove.addEventListener('click', (e) => {
     e.preventDefault();
     const newTodos = removeTodos((todo) => todo.index !== index, todos);
@@ -74,7 +73,7 @@ export const createToDo = ({ description, completed, index }) => {
   return { description, completed, index };
 };
 
-//Function to recreate a new todo list without the deleted item
+// Function to recreate a new todo list without the deleted item
 export const refreshToDos = () => {
   let child = ul.lastElementChild;
   while (child) {
