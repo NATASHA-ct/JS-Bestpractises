@@ -1,4 +1,4 @@
-# To-Do-list
+# To-Do-list test for JavaScript best practises
 A simple webapp( list of To Do tasks).  This simple web page was built using webpack and served by a webpack dev server.
 
 In this project I implemented the following functionalities::
@@ -7,10 +7,15 @@ In this project I implemented the following functionalities::
 -Marking a selected item as complete.
 -Removing all items marked as complete at once.
 
+Lastly I tested for the use of the following JavaScript best practices:
+-DRY: Don't repeat yourself! It means avoiding having duplicated code.
+-KISS: Keep It Simple, Stupid.AvoidING unnecessary complexity, over-engineering your code.
+
 ## Built With
 
 - HTML, CSS
 -Es6 Modules
+-Use of webpack builder
 
 ## Live Demo (available)
 
